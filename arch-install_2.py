@@ -59,3 +59,6 @@ os.system('systemctl enable sshd')
 
 # After that, you will have a working system.
 os.system('exit')
+
+# Delete the script file
+os.remove("/root/arch-install_2.py")
